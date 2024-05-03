@@ -149,6 +149,88 @@ const database ={
         name: "zip lines"
     },
     ],
+
+    servicesLocations: [{
+        // chamfort river
+        id: 1,
+        serviceId: 1, 
+        locationId: 1,
+    }, {
+        id: 2,
+        serviceId: 2,
+        locationId: 1,
+    }, {
+        id: 3,
+        serviceId: 3,
+        locationId: 1,
+    }, {
+        // lost wolf hiking trail
+        id: 4,
+        serviceId: 4,
+        locationId: 2,
+    }, {
+        id: 5,
+        serviceId: 5,
+        locationId: 2,
+    }, {
+        id: 6,
+        serviceId: 6,
+        locationId: 2,
+    }, {
+        // lodge
+        id: 7,
+        serviceId: 7,
+        locationId: 3,
+    }, {
+        id: 8,
+        serviceId: 8,
+        locationId: 3,
+    }, {
+        id: 9,
+        serviceId: 9,
+        locationId: 3,
+    }, {
+        id: 10,
+        serviceId: 5,
+        locationId: 3,
+    }, {
+        // gander river
+        id: 11,
+        serviceId: 3,
+        locationId: 4,
+    }, {
+        id: 12,
+        serviceId: 4,
+        locationId: 4,
+    }, {
+        // campgrounds
+        id: 13,
+        serviceId: 9,
+        locationId: 5,
+    }, {
+        id: 14,
+        serviceId: 7,
+        locationId: 5,
+    }, {
+        id: 15,
+        serviceId: 8,
+        locationId: 5,
+    }, {
+        // pine bluff trails
+        id: 16,
+        serviceId: 4,
+        locationId: 6,
+    }, {
+        id: 17,
+        serviceId: 5,
+        locationId: 6,
+    }, {
+        id: 18,
+        serviceId: 10,
+        locationId: 6,
+    }, {
+    }],
+
 }
 
 export const getGuests = () => {
