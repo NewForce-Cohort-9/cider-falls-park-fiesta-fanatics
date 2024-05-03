@@ -76,11 +76,6 @@ const database ={
     }, {
     }],
 
-    locations: [ {
-
-    }
-    ],
-
     locations: [{
         id: 1,
         location: "northeast",
