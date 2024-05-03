@@ -99,21 +99,27 @@ const database ={
     attractions: [{
         id: 1,
         name: "Chamfort River",
+        location: "northeast",
     }, {
         id: 2,
         name: "Lost Wolf Hiking Trail",
+        location: "north",
     }, {
         id: 3,
         name: "Lodge",
+        location: "northwest",
     }, {
         id: 4,
         name: "Gander River",
+        location: "southwest",
     }, {
         id: 5,
         name: "Campgrounds",
+        location: "south",
     }, {  
         id: 6,
         name: "Pine Bluffs Trails",
+        location: "southeast"
     }, {
     }],
 
@@ -157,4 +163,8 @@ export const getGuests = () => {
 
 export const getLocations = () => {
     return database.locations.map(location => ({...location}))
+}
+
+export const getAttractions = () => {
+    return database.attractions.map(attractions => ({...attractions}))
 }
