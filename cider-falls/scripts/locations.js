@@ -1,38 +1,4 @@
-<<<<<<< HEAD
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*import { getLocations } from "./database.js"
-const locations = getLocations()
-
-
-export const Locations = () => {
-    let html = "<ul>"
-
-    for (const location of locations) {
-        html += `<li>${location.name}</li>`
-    }
-
-    html += "</ul>"
-
-    return html
-}*/
-=======
 import { getLocations } from "./database.js";
 
 export const Locations = () => {
@@ -47,4 +13,3 @@ export const Locations = () => {
 
     return locationsHTML;
 };
->>>>>>> main
