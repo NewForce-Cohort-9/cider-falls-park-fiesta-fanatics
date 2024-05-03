@@ -1,9 +1,86 @@
 const database ={
-    guests:[ {
+    
+
+    guests: [{
+        id: 1,
+        name: "Biggie Smalls",
+        locationId: 1,
+    }, {
+        id: 2,
+        name: "Method Man",
+        locationId: 1,
+    }, {
+        id: 3,
+        name: "Ol Dirt Schultz",
+        locationId: 6,
+    }, {
+        id: 4,
+        name: "MF Doom",
+        locationId: 6,
+    }, {
+        id: 5,
+        name: "Kool Keith",
+        locationId: 2,
+    }, {
+        id: 6,
+        name: "Ghostface Killah",
+        locationId: 3,
+    }, {
+        id: 7,
+        name: "Bobby Digital",
+        locationId: 5,
+    }, {
+        id: 8,
+        name: "Aesop Rock",
+        locationId: 4,
+    }, {
+        id: 9,
+        name: "Killer Mike",
+        locationId: 6,
+    }, {
+        id: 10,
+        name: "Vast Air",
+        locationId: 4,
+    }, {
+        id: 9,
+        name: "El P",
+        locationId: 1,
+    }, {
+        id: 10,
+        name: "Brother Ali",
+        locationId: 5,
+    }, {
+        id: 10,
+        name: "Murs",
+        locationId: 2,
+    }, {
+        id: 11,
+        name: "Louis Logic",
+        locationId: 2,
+    }, {
+        id: 12,
+        name: "Too Short",
+        locationId: 6,
+    }, {
+        id: 13,
+        name: "Bushwick Bill",
+        locationId: 2,
+    }, {
+        id: 14,
+        name: "Jay Z",
+        locationId: 5,
+    }, {
+        id: 15,
+        name: "Sage Francis",
+        locationId: 5,
+    }, {
+    }],
+
+    locations: [ {
 
     }
     ],
-    
+
     locations: [{
         id: 1,
         location: "northeast",
@@ -24,6 +101,7 @@ const database ={
         location: "southeast",
     }],
 
+
     attractions: [ {
 
     }
@@ -35,4 +113,8 @@ const database ={
     ],
 
 
+}
+
+export const getGuests = () => {
+    return database.guests.map(guest => ({...guest}))
 }
