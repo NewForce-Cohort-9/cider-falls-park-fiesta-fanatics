@@ -6,7 +6,7 @@ export const Locations = () => {
     let locationsHTML = "<ul>";
 
     for (const location of locations) {
-        locationsHTML += `<li>${location.name}</li>`; // Access name property of each location
+        locationsHTML += `<li>${location.location}</li>`; // Access name property of each location
     }
 
     locationsHTML += "</ul>";
