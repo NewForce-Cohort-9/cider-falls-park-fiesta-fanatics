@@ -42,35 +42,35 @@ const database ={
         name: "Vast Air",
         locationId: 4,
     }, {
-        id: 9,
+        id: 11,
         name: "El P",
         locationId: 1,
     }, {
-        id: 10,
+        id: 12,
         name: "Brother Ali",
         locationId: 5,
     }, {
-        id: 10,
+        id: 13,
         name: "Murs",
         locationId: 2,
     }, {
-        id: 11,
+        id: 14,
         name: "Louis Logic",
         locationId: 2,
     }, {
-        id: 12,
+        id: 15,
         name: "Too Short",
         locationId: 6,
     }, {
-        id: 13,
+        id: 16,
         name: "Bushwick Bill",
         locationId: 2,
     }, {
-        id: 14,
+        id: 17,
         name: "Jay Z",
         locationId: 5,
     }, {
-        id: 15,
+        id: 18,
         name: "Sage Francis",
         locationId: 5,
     }, {
