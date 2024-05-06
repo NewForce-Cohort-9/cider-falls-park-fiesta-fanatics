@@ -237,12 +237,90 @@ const database ={
     }, {
     }],
 
+    servicesAttractions: [{
+        id: 1,
+        servicesId: 1, 
+        attractionId: 1,
+    }, {
+        id: 2,
+        servicesId: 2,
+        attractionId: 1,
+    }, {
+        id: 3,
+        servicesId: 3,
+        attractionId: 1,
+    }, {
+        id: 4,
+        servicesId: 3,
+        attractionId: 4,
+    }, {
+        id: 5,
+        servicesId: 4,
+        attractionId: 2,
+    }, {
+        id: 6,
+        servicesId: 4,
+        attractionId: 4,
+    }, {
+        id: 7,
+        servicesId: 4,
+        attractionId: 6,
+    }, {
+        id: 8,
+        servicesId: 5,
+        attractionId: 2,
+    }, {
+        id: 9,
+        servicesId: 5,
+        attractionId: 3,
+    }, {
+        id: 10,
+        servicesId: 5,
+        attractionId: 6,
+    }, {
+        id: 11,
+        servicesId: 6,
+        attractionId: 2,
+    }, {
+        id: 12,
+        servicesId: 7,
+        attractionId: 3,
+    }, {
+        id: 13,
+        servicesId: 7,
+        attractionId: 5,
+    }, {
+        id: 14,
+        servicesId: 8,
+        attractionId: 3,
+    }, {
+        id: 15,
+        servicesId: 8,
+        attractionId: 5,
+    }, {
+        id: 16,
+        servicesId: 9,
+        attractionId: 3,
+    }, {
+        id: 17,
+        servicesId: 9,
+        attractionId: 5,
+    }, {
+        id: 18,
+        servicesId: 10,
+        attractionId: 6,
+    }, {
+    }],
+
 }
 
 export const getGuests = () => {
     return database.guests.map(guest => ({...guest}))
 }
 
+export const getServices = () => {
+    return database.services.map(service => ({...service}))
+}
 export const getLocations = () => {
     return database.locations.map(location => ({...location}))
 }
