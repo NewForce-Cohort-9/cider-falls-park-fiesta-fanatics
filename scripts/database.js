@@ -73,8 +73,8 @@ const database ={
         id: 18,
         name: "Sage Francis",
         locationId: 5,
-    }, {
-    }],
+    }, 
+    ],
 
     locations: [{
         id: 1,
@@ -120,8 +120,8 @@ const database ={
         id: 6,
         name: "Pine Bluffs Trails",
         location: "southeast"
-    }, {
-    }],
+    }, 
+    ],
 
     services: [ {
         id: 1,
@@ -159,7 +159,7 @@ const database ={
     servicesLocations: [{
         // chamfort river
         id: 1,
-        serviceId: 1, 
+        serviceId: 1,
         locationId: 1,
     }, {
         id: 2,
@@ -327,4 +327,8 @@ export const getLocations = () => {
 
 export const getAttractions = () => {
     return database.attractions.map(attractions => ({...attractions}))
+}
+
+export const getServicesAttractions = () => {
+    return database.servicesAttractions.map(servicesAttraction => ({...servicesAttraction}) )
 }

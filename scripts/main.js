@@ -12,7 +12,7 @@ const applicationHTML = `
         <h2>Attractions</h2>
         ${Attractions()}
     </section>
-    <section class="detail--column list details__locations">
+    //<section class="detail--column list details__locations">
         <h2>Locations</h2>
         ${Locations()}
     </section>
