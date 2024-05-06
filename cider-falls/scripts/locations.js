@@ -1,3 +1,4 @@
+
 import { getLocations } from "./database.js";
 
 export const Locations = () => {

@@ -243,6 +243,9 @@ export const getGuests = () => {
     return database.guests.map(guest => ({...guest}))
 }
 
+export const getServices = () => {
+    return database.services.map(service => ({...service}))
+}
 export const getLocations = () => {
     return database.locations.map(location => ({...location}))
 }
