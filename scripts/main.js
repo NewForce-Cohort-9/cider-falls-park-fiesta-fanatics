@@ -1,7 +1,7 @@
-import { Attractions } from "./attractionLocations.js"
+import { Attractions } from "./attractions.js"
 import { Locations } from "./locations.js"
 import { Guests } from "./guests.js"
-import { Services } from "./serviceLocations.js"
+import { Services } from "./services.js"
 
 const mainContainer = document.querySelector("#container")
 
