@@ -6,7 +6,7 @@ export const Guests = () => {
     let guestsHTML = "<ul>";
 
     for (const guest of guests) {
-        guestsHTML += `<li>${guests.name}</li>`; // Access name property of each guest
+        guestsHTML += `<li>${guest.name}</li>`; // Access name property of each guest
     }
 
     guestsHTML += "</ul>";

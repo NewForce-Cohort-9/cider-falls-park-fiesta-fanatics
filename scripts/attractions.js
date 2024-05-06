@@ -15,3 +15,38 @@ export const Attractions = () => {
 
     return attractionsHTML;
 };
+
+const mainContainer = document.querySelector("#container");
+
+const applicationHTML = `
+    <h1>Cider Falls</h1>
+    <article class="details">
+        <section class="detail--column list details__attractions">
+            <h2>Attractions</h2>
+<div class="attraction-box">
+    <h3>${Attractions()}</h3>
+    <p>Description of Attraction 1</p>
+</div>
+<div class="attraction-box">
+    <h3>Attraction 2</h3>
+    <p>Description of Attraction 2</p>
+</div>
+<div class="attraction-box">
+    <h3>Attraction 2</h3>
+    <p>Description of Attraction 2</p>
+</div>
+<div class="attraction-box">
+    <h3>Attraction 2</h3>
+    <p>Description of Attraction 2</p>
+</div>
+<div class="attraction-box">
+    <h3>Attraction 2</h3>
+    <p>Description of Attraction 2</p>
+</div>
+<div class="attraction-box">
+    <h3>Attraction 2</h3>
+    <p>Description of Attraction 2</p>
+</div>
+        </section>`;
+
+        mainContainer.innerHTML = applicationHTML;
