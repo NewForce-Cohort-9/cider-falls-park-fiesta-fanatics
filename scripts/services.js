@@ -3,13 +3,13 @@ const services = getServices()
 
 
 export const Services = () => {
-    let html = "<ul>"
+    let servicesHTML = "<ul>"
 
     for (const service of services) {
-        html += `<li>${service.name}</li>`
+        servicesHTML += `<li>${service.name}</li>`
     }
 
-    html += "</ul>"
+    servicesHTML += "</ul>"
 
-    return html
+    return servicesHTML
 }
